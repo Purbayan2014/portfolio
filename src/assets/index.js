@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from './tech/c.png';
+import express_js from './tech/express_js.png'
+import golang  from './tech/golang.png';
+import kotlin from './tech/kotlin.png'
+import mysql from './tech/mysql.png'
+import python from './tech/python.png'
+import pytorch from './tech/pytorch.png'
+import tensorflow from './tech/tensorflow.png'
+import flask from './tech/flask.png'
+import swagger from './tech/swagger.png'
+import kubernetes from './tech/kubernetes.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +40,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import machine_learning_icon from './machine_learning_icon.png'
+import networking from './networking.png';
+import deep_learing from './deep_learning.png';
+import telaverge from './company/telaverge.png';
+import microsoft from './company/microsoft.png';
+import brainwavenet from './BrainWaveNet.png'
+import emotion from './emotion.png'
+import networking_proj from './networking_proj.png'
+import graphical from './graphical.png'
+
+
 
 export {
   logo,
@@ -59,4 +81,24 @@ export {
   carrent,
   jobit,
   tripguide,
+  machine_learning_icon,
+  networking,
+  deep_learing,
+  telaverge,
+  microsoft,
+  c,
+  express_js,
+  golang,
+  kotlin,
+  mysql,
+  python,
+  pytorch,
+  tensorflow,
+  flask,
+  swagger,
+  kubernetes,
+  brainwavenet,
+  emotion,
+  graphical,
+  networking_proj,
 };
