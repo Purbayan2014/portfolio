@@ -43,6 +43,8 @@ import {
     graphical,
     networking_proj,
     brainwavenet,
+    plagarism,
+    nextjs,
 
 } from "../assets";
 
@@ -129,6 +131,10 @@ const technologies = [
     {
         name: "React JS",
         icon: reactjs,
+    },
+    {
+        name : "Next JS",
+        icon: nextjs,
     },
     {
         name: "Tailwind CSS",
@@ -235,19 +241,47 @@ const projects = [
             "",
         tags: [
             {
-                name: "machine learning",
+                name: "Tensorflow",
                 color: "blue-text-gradient",
             },
             {
-                name: "deep learning",
+                name: "Pytorch",
                 color: "green-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Swagger",
                 color: "green-text-gradient",
             },
             {
-                name: "web application",
+                name: "Python",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Flask",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "NLP-/Transformers",
+                color: "green-text-gradient",
+            },
+            {
+                name: "React JS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Pandas",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Numpy",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Seaborn",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Plotly",
                 color: "pink-text-gradient",
             },
         ],
@@ -266,11 +300,31 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Google Colab",
                 color: "green-text-gradient",
             },
             {
-                name: "deep learning",
+                name: "SKlearn",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Pandas",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Numpy",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "JS",
                 color: "pink-text-gradient",
             },
         ],
@@ -301,6 +355,29 @@ const projects = [
         ],
         image: networking_proj,
         source_code_link: "https://github.com/Purbayan2014/Pseudo-IGP-protocol",
+    },
+    {
+        name: "Plagarism Checking API",
+        description:
+                "This state-of-the-art plagiarism checker API leverages the power of OpenAI API, Next.js, Redis, Prisma"+
+                "Material UI, Tailwind CSS, and TypeScript to provide advanced text analysis and generate a comprehensive"+
+                 "percentage score of textual similarity, ensuring the utmost precision and accuracy in detecting plagiarism.",
+        tags: [
+            {
+                name: "Web API",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "authentication/security",
+                color: "green-text-gradient",
+            },
+            {
+                name: "python gui",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: plagarism,
+        source_code_link: "https://openapi-ts.vercel.app/",
     },
     {
         name: "Graphical Authentication System",

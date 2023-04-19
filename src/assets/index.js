@@ -49,7 +49,8 @@ import brainwavenet from './BrainWaveNet.png'
 import emotion from './emotion.png'
 import networking_proj from './networking_proj.png'
 import graphical from './graphical.png'
-
+import plagarism from './plagarism.png'
+import nextjs from './nextjs.png'
 
 
 export {
@@ -101,4 +102,6 @@ export {
   emotion,
   graphical,
   networking_proj,
+  plagarism,
+  nextjs,
 };
