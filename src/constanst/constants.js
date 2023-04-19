@@ -113,6 +113,10 @@ const technologies = [
         icon: javascript,
     },
     {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
         name: "Golang",
         icon: golang,
     },
@@ -368,11 +372,35 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "authentication/security",
+                name: "TypeScript",
                 color: "green-text-gradient",
             },
             {
-                name: "python gui",
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Next JS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Prisma",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Redis",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Postman",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Swagger",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Material UI",
                 color: "pink-text-gradient",
             },
         ],

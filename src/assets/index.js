@@ -51,6 +51,7 @@ import networking_proj from './networking_proj.png'
 import graphical from './graphical.png'
 import plagarism from './plagarism.png'
 import nextjs from './nextjs.png'
+import typescript from './typescript.png'
 
 
 export {
@@ -104,4 +105,5 @@ export {
   networking_proj,
   plagarism,
   nextjs,
+  typescript,
 };
