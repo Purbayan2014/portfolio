@@ -45,6 +45,7 @@ import {
     brainwavenet,
     plagarism,
     nextjs,
+    jobquest,
 
 } from "../assets";
 
@@ -119,10 +120,6 @@ const technologies = [
     {
         name: "Golang",
         icon: golang,
-    },
-    {
-        name: "Kotlin",
-        icon: kotlin,
     },
     {
         name: "HTML 5",
@@ -406,6 +403,38 @@ const projects = [
         ],
         image: plagarism,
         source_code_link: "https://openapi-ts.vercel.app/",
+    },
+    {
+        name: "Job Quest",
+        description:
+                "JobQuest is a job search app built using React Native for front-end development and Firebase for back-end development."+
+                " It integrates the Jsearch API from Rapid API for real-time job posting updates and features multiple search tags and "+
+                "filters, pagination support, and separate sections for fresher and professional jobs. With its clean and sleek UI, "+
+                "JobQuest provides users with a seamless and efficient job search experience.",
+        tags: [
+            {
+                name: "React Native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React JS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "api",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Postman",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: jobquest,
+        source_code_link: "https://github.com/Purbayan2014/Job-Quest",
     },
     {
         name: "Graphical Authentication System",
