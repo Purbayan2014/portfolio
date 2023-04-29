@@ -46,6 +46,7 @@ import {
     plagarism,
     nextjs,
     jobquest,
+    screensiren,
 
 } from "../assets";
 
@@ -435,6 +436,35 @@ const projects = [
         ],
         image: jobquest,
         source_code_link: "https://github.com/Purbayan2014/Job-Quest",
+    },
+    {
+        name: "Screen Siren",
+        description:
+                "ScreenSiren is a cutting-edge web application that lets users easily explore trending and popular TV shows and movies. " + 
+                "Powered by Angular and PrimeNG components, ScreenSiren provides a sleek and intuitive interface for discovering new entertainment." + 
+                "With comprehensive details on each show and movie, including videos, ScreenSiren makes it easy to stay up-to-date on your favorite " + 
+                "content. And with robust search functionality, users can easily find TV shows and movies by name or genre. Showcase your passion for entertainment "+
+                "and your skills as a developer with ScreenSiren on your resume today!",
+        tags: [
+            {
+                name: "angular js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "primeflex",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "primeng",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: screensiren,
+        source_code_link: "https://purbayan2014.github.io/ScreenSiren2/",
     },
     {
         name: "Graphical Authentication System",
